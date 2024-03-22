@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.first-container {
+    height: 100vh;
+    position: relative;
+    background-image: url(./img/developer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.first-container h1 {
+    position: absolute;
+    color: aliceblue;
+    top: 15%;
+    left: 20%;
+    font-size: 60px;
+    word-break: berak-word;
+}
+
+.work {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(1, 6, 31);
+    color: white;
+    display: block;
+}
+
+.work h2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    font-size: 70px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    margin-bottom: 80px;
+}
+
+.skill-box {
+    transform: scale(1.04);
+    height: 85vh;
+    text-align: center;
+    margin: 70px;
+    box-shadow: 1px 2px 1px 2px rgba(34, 33, 34, 0.116);
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.skill-box p {
+    position: relative;
+    color: rgb(135, 130, 130);
+    margin: 10%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.skill-box img {
+    margin-bottom: 30px;
+}
+
+.skill-box h3 {
+    color: rgb(39, 33, 33);
+    text-align: left;
+    font-size: 25px;
+    margin: 10px 10px 10px 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    color: white;
+    background-color: rgb(73, 90, 5);
+    height: 50vh;
+    text-align: left;
+}
+
+.about-box {
+    color: white;
+    background-color: rgb(112, 26, 5);
+    height: 50vh;
+    text-align: left;
+}
+
+.contact-box h2,
+.about-box h2 {
+    margin: 50px 0px 0px 150px;
+    font-size: 50px;
+}
+
+.contact-box p,
+.about-box p {
+    text-align: left;
+    margin: 20px 90px 0px 150px;
+}
+
+footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
