@@ -38,6 +38,8 @@ body {
 a {
     text-decoration: none;
     color: white;
+    display: flex;
+    gap: 5px;
 }
 
 ul {
@@ -302,7 +304,7 @@ footer {
         width: 50%;
         height: 95%;
         display: flex;
-        border-radius: 30px;
+        border-radius: 75px;
         opacity: 0.9;
     }
 }
@@ -320,4 +322,17 @@ footer {
     #contact .container{
         height: 50vh;
     }
+    .card{
+        width: 260px;
+    }
+    .top_contact{
+        max-width: 0px;
+    }
+    .grid_item{
+        margin-right: 30px;
+    }
+    #hero img{
+        margin-left: 10%;
+    }
+
 }
