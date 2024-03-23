@@ -124,3 +124,163 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 1440px) {
+    .skill-container {
+        margin: 30px;
+    }
+
+    .skill-box {
+        height: 95vh;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+    .skill-container {
+        display: grid;
+        grid-template-areas: "a a";
+    }
+
+    .skill-box {
+        height: 70vh;
+        width: 31vw;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .skill-container {
+        display: grid;
+        grid-template-areas: "a a";
+    }
+
+    .skill-box {
+        height: 80vh;
+        width: 31vw;
+    }
+
+    .skill-box img {
+        margin-bottom: 12px;
+        width: 31vw;
+    }
+
+    .contact-box h2,
+    .about-box h2 {
+        margin: 50px 0px 0px 85px;
+    }
+
+    .contact-box p,
+    .about-box p {
+        margin: 50px 50px 30px 53px;
+    }
+
+    .work h2 {
+        top: 20%;
+        left: 6%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+    .first-container h1{
+        font-size: 40px;
+    }
+    .first-container {
+        height: 50vh;
+        background-size: 100% 51vh;
+    }
+    .skill-container {
+        display: grid;
+        margin: 0;
+    }
+
+    .skill-box {
+        height: 70vh;
+        width: 70vw;
+    }
+
+    .skill-box img {
+        margin-bottom: 17px;
+        width: 70vw;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .contact-box h2,
+    .about-box h2 {
+        margin: 12px 0px 0px 23px;
+        font-size: 28px;
+    }
+
+    .contact-box p,
+    .about-box p {
+        margin: 19px 0px 33px 39px;
+    }
+
+    .work h2 {
+        top: 24%;
+        left: 4%;
+        font-size: 40px;
+    }
+    .work{
+        height: 12vh;
+    }
+    footer{
+        height: 6vh;
+        font-size: 20px;
+    }
+}
+@media (max-width: 424px) and (min-width: 250px) {
+    .first-container h1{
+        font-size: 25px;
+    }
+    .first-container {
+        height: 40vh;
+        background-size: 100% 40vh;
+    }
+    .skill-container {
+        display: grid;
+        margin: 0px;
+        place-content: center;
+    }
+
+    .skill-box {
+        height: 97vh;
+        width: 70vw;
+    }
+
+    .skill-box img {
+        margin-bottom: 17px;
+        width: 70vw;
+    }
+
+    /* .info {
+        width: 89%;
+    } */
+
+    .contact-box h2,
+    .about-box h2 {
+        margin: 11px 0px 3px 10px;
+        font-size: 20px;
+    }
+.contact-box, .about-box{
+    height: 72vh;
+}
+    .contact-box p,
+    .about-box p {
+        margin: 9px 10px 25px 12px;
+    }
+
+    .work h2 {
+        top: 20%;
+        left: 3%;
+        font-size: 24px;
+    }
+    .work{
+        height: 6vh;
+    }
+    footer{
+        height: 4vh;
+        font-size: 10px;
+    }
+}

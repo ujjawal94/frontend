@@ -84,3 +84,48 @@ header{
     background-color: #282e34;
     color: #ddd;
 }
+
+@media (max-width: 1020px) {
+    .nav{
+        display: flex;
+        align-items: flex-end;
+    }
+}
+@media (max-width: 575px) {
+    .textbg{
+        padding: 12px;
+    }
+    .ptext{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+}
+@media (max-width: 480px){
+    header{
+        padding: 2px;
+    }
+    .nav{
+        gap: 11%;
+        font-size: 11px;
+    }
+    .textbg{
+        padding: 5px;
+    }
+    .ptext{
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+}
+@media  screen and (max-width: 390px) {
+    .nav{
+        gap: 6%;
+        font-size: 10px;
+    }
+    .textbg{
+        padding: 13px;
+    }
+    .ptext{
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+}

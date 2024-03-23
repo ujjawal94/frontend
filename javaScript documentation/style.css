@@ -101,3 +101,9 @@ code {
     margin: 10px;
     border-radius: 5px;
 }
+
+@media (max-width: 425px) and (min-width: 300px) {
+    header {
+        height: 160vh;
+    }
+}
