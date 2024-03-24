@@ -223,6 +223,7 @@ nav li:hover {
     margin-bottom: -6.5rem;
     transition: 0.3s ease-in-out;
     transform: translateY(100px);
+    width: 100%;
 }
 
 .card_content h3 {

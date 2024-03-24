@@ -190,3 +190,64 @@ a{
     text-decoration: none;
     color: #000;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .hero-image img {
+        width: 50vw;
+    }
+    .hero-content h1 {
+        font-size: 5rem;
+    }
+    .card-wrapper {
+        margin-top: 22px;
+    }
+    #hero{
+        padding: 19px;
+    }
+}
+@media (max-width: 767px) and (min-width: 425px) {
+    .hero-image img {
+        width: 50vw;
+        height: 50vh;
+    }
+    .hero-content h1 {
+        font-size: 5rem;
+    }
+    .card-wrapper {
+        margin-top: 22px;
+    }
+    #hero{
+        padding: 10px;
+    }
+    .status{
+        gap: 50px;
+    }
+}
+@media (max-width: 424px) and (min-width: 300px) {
+nav ul{
+    gap: 1rem;
+}
+    
+    .hero-image img {
+        width: 50vw;
+        height: 50vh;
+    }
+    .hero-content h1 {
+        font-size: 5rem;
+    }
+    .card-wrapper {
+        margin-top: 22px;
+    }
+    #hero{
+        padding: 10px;
+    }
+    .status{
+        gap: 50px;
+    }
+    footer{
+        font-size: 8px;
+    }
+    .card-content img{
+        width: 50px;
+    }
+}

@@ -71,3 +71,13 @@ footer{
 footer p{
     text-align: end;
 }
+
+@media (max-width: 425px) and (min-width: 300px){
+    .top-section{
+        display: flex;
+        flex-direction: column;  
+        clear: left;
+        align-items: center;
+        justify-content: center;
+    }
+}
